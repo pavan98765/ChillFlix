@@ -1,0 +1,14 @@
+runtime: python39 # or the version you are using
+entrypoint: gunicorn -b :$PORT django_netflix.wsgi
+instance_class: F2
+
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 10
+  min_pending_latency: automatic
+  max_pending_latency: 30ms
+
+env_variables:
+  DJANGO_SETTINGS_MODULE: "django_netflix.settings"
+  SECRET_KEY: "django-insecure-j)4+v(hnk#fy9b_!#q4*u+a+@*u*u_lh#nwkb5r-gahx#e9gl8"
