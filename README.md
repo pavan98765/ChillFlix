@@ -1,13 +1,13 @@
 # ChillFlix
 
-ChillFlix is a web application inspired by Netflix, built using Django. This project showcases streaming capabilities, user authentication, and interactive UI elements for an engaging viewing experience.
+ChillFlix, inspired by Netflix, is a Django-based web application offering a rich streaming experience with features like user authentication, dynamic content management, and responsive design for seamless viewing on any device.
 
 ## Features
 
-- **User Authentication**: Sign up, log in, and manage profiles.
-- **Dynamic Content Management**: Admins can easily add, update, or delete content.
-- **Responsive Design**: Ensures a seamless experience on both desktop and mobile devices.
-- **User Interaction**: Favorites, watch history, and content recommendation.
+- **User Authentication**: Easy sign-up, login, and profile management.
+- **Dynamic Content Management**: Simplified admin interface for content updates.
+- **Responsive Design**: Optimal viewing across devices.
+- **User Interaction**: Engage with favorites, history, and recommendations.
 
 ## Getting Started
 
@@ -15,7 +15,6 @@ ChillFlix is a web application inspired by Netflix, built using Django. This pro
 
 - Python 3.x
 - Django
-- Other dependencies listed in `requirements.txt`.
 
 ### Installation
 
@@ -25,13 +24,20 @@ ChillFlix is a web application inspired by Netflix, built using Django. This pro
 git clone https://github.com/pavan98765/ChillFlix.git
 ```
 
-2. Migrate the database:
+2. Install Django:
+
+```bash
+pip install django
+
+```
+
+3. Set up the database:
 
 ```bash
 python manage.py migrate
 ```
 
-3. Run the development server:
+4. Launch the server:
 
 ```bash
 python manage.py runserver
@@ -39,8 +45,8 @@ python manage.py runserver
 
 ## Usage
 
-After running the server, visit `http://localhost:8000` in your browser to start exploring ChillFlix.
+After running the server, visit `http://localhost:8000` in your browser to enjoy ChillFlix.
 
 ## Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Any contributions you make are **greatly appreciated**.
