@@ -2,6 +2,8 @@
 
 ChillFlix, inspired by Netflix, is a Django-based web application offering a rich streaming experience with features like user authentication, dynamic content management, and responsive design for seamless viewing on any device.
 
+![img](Results/Chillflix_gif.gif)
+
 ## Features
 
 - **User Authentication**: Easy sign-up, login, and profile management.
